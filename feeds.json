@@ -1,0 +1,11 @@
+{
+  "bn": [
+    {"cat": "world", "name": "BBC Bangla", "url": "https://feeds.bbci.co.uk/bengali/rss.xml"}
+  ],
+  "en": [
+    {"cat": "world",  "name": "BBC News", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
+    {"cat": "sports", "name": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/rss.xml"},
+    {"cat": "tech",   "name": "BBC News", "url": "https://feeds.bbci.co.uk/news/technology/rss.xml"},
+    {"cat": "ent",    "name": "BBC News", "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"}
+  ]
+}

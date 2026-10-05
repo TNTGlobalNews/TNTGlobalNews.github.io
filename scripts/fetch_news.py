@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 
 MEDIA = '{http://search.yahoo.com/mrss/}'
 KEY = os.environ.get('ANTHROPIC_API_KEY', '')
-PER_FEED, KEEP = 4, 60
+PER_FEED, KEEP = 12, 60
 
 def fetch(url, data=None, headers=None):
     req = urllib.request.Request(url, data=data, headers=headers or {'User-Agent': 'Mozilla/5.0 news-bot'})
